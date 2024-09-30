@@ -1,0 +1,44 @@
+.nav {
+  padding: 10px;
+  background-color: @nav;
+
+  &__inner {
+    max-width: inherit;
+    gap:10px;
+  }
+
+  &__inner {
+    padding-left: @nav-btn-margin / 2;
+    padding-right: @nav-btn-margin / 2;
+  }
+
+  &__btn {
+    margin: 0 0;
+    background-color: #555555;
+    color: #fff;
+    border-radius: 5px;
+    height: 50px;
+
+
+    .no-touch &:not(.is-disabled):not(.is-locked):hover {
+      background-color: @nav-icon-hover;
+      color: @nav-icon-inverted-hover;
+      .transition(background-color @duration ease-in, color @duration ease-in;);
+    }
+  }
+
+  &__btn-label {
+    font-size: @nav-btn-label-size;
+  }
+}
+
+button.btn-icon.nav__btn.nav__back-btn.js-nav-back-btn {
+  display: none;
+}
+button.btn-icon.nav__btn.nav__pagelevelprogress-btn.pagelevelprogress__nav-btn .nav__btn-label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+button.btn-icon.nav__btn.nav__pagelevelprogress-btn.pagelevelprogress__nav-btn .pagelevelprogress__indicator-outer {
+  display: block;
+}

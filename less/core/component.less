@@ -1,0 +1,64 @@
+.component {
+  position: relative;
+
+  &.has-bg-image > .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  &__container {
+    flex-direction: unset;
+    margin-left: -@component-padding-hoz;
+    margin-right: -@component-padding-hoz;
+    
+    /*max-width: 60rem;
+    margin: auto;
+  
+    &__title{
+      max-width: 100%;
+      margin: auto;
+    }*/
+  }
+
+  &__inner {
+    position: relative;
+    padding: 0;
+  }
+
+  &__title {
+    margin-bottom: @component-title-margin;
+    .component-title;
+    color: @heading-color;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+  }
+
+  &__body {
+    margin-bottom: @component-body-margin;
+  }
+
+  &__body p{
+    text-indent: 3rem;
+  }
+
+  &__instruction {
+    margin-bottom: @component-instruction-margin;
+    .instruction-text;
+  }
+
+  &__body a,
+  &__instruction a {
+    .link-text;
+  }
+}
+.widthFull {
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0 !important;
+}
