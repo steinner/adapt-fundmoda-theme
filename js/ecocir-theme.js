@@ -20,7 +20,7 @@ class Theme extends Backbone.Controller {
   }
 
   addFavIcon() {
-    const theme = Adapt.course.get('_theme-test');
+    const theme = Adapt.course.get('_ecocir-theme');
     if (!theme?._favIcon?._src) return;
     const $linkStandard = $(`<link rel="icon" href="${theme._favIcon._src}" size="192x192" />`);
     const $linkApple = $(`<link rel="apple-touch-icon" href="${theme._favIcon._src}" />`);
@@ -31,7 +31,7 @@ class Theme extends Backbone.Controller {
 
   onPostRender(view) {
     const viewModel = view.model;
-    const theme = viewModel.get('_theme-test');
+    const theme = viewModel.get('_ecocir-theme');
     if (!theme) return;
     const model = new Backbone.Model(theme);
     const el = view.$el;

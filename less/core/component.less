@@ -41,6 +41,13 @@
 
   &__body {
     margin-bottom: @component-body-margin;
+    
+    li::marker {
+      color: @item-color;
+    }
+    li b, li strong {
+      color: @item-color;
+    }
   }
 
   &__body p{

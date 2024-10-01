@@ -4,7 +4,7 @@
     padding: @item-padding;
     background-color: @drawer-item;
     border-bottom: 1px solid @drawer-item-hover;
-    color: @drawer-item-inverted;
+    color: @white;
 
     .no-touch &:not(.is-disabled):not(.is-locked):hover {
       background-color: @drawer-item-hover;
@@ -14,9 +14,9 @@
   }
 
   &__item-btn.is-locked,
-  &__item-btn.is-disabled {
-    background-color: #fba528;
-    color: @disabled-inverted;
+  &__item-btn.is-disabled { 
+    background-color: @item-dark-color;
+    color: @white;
 
     span {
       font-weight: 800;

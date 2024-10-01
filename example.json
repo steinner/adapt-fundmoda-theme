@@ -1,11 +1,11 @@
-"_theme-test": {
+"_ecocir-theme": {
     "_favIcon": {
         "_src": ""
     }
 },
 
 // contentObjects.json
-"_theme-test": {
+"_ecocir-theme": {
     "_backgroundImage": {
         "_xlarge": "",
         "_large": "",
@@ -50,7 +50,7 @@
 }
 
 // articles.json
-"_theme-test": {
+"_ecocir-theme": {
     "_textAlignment": {
         "_title": "",
         "_body": "",
@@ -76,7 +76,7 @@
 }
 
 // blocks.json
-"_theme-test": {
+"_ecocir-theme": {
     "_textAlignment": {
         "_title": "",
         "_body": "",
@@ -113,7 +113,7 @@
 }
 
 // components.json
-"_theme-test": {
+"_ecocir-theme": {
     "_textAlignment": {
         "_title": "",
         "_body": "",

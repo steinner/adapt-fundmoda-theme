@@ -1,0 +1,29 @@
+.autor{
+    &__inner {
+        .author-outside{
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            .author-box{
+                padding: 50px 50px;
+                p{
+                    color: @black;
+                }
+                h2{
+                    color: @item-dark-color;
+                }
+            }
+            .author-container{
+                position: absolute;
+                left: 250px;
+                h2{
+                    color:@item-color;
+                }
+            }
+            .author-icon {
+                display: none;
+            }
+       }
+
+    }
+}

@@ -72,46 +72,29 @@
  
 }
 
-.block.roxo{
-  background: @purple;
-  color: @white;
+.block.cinza-claro{
+  background: @greyLight;
+  color: @black;
+}
+.block.cinza{
+  background: @grey;
+  color: @black;
+
   .component__title {    
-    color: @heading-color-yellow;
+    color: @item-color;
     text-transform: uppercase;
+  }
+  b {
+    color: @item-color;
   }
   
 }
-.block.apresentacao {
-  background: @purple url(assets/page2.png);
-  background-repeat: no-repeat;
-  background-position: left;
-}
 .block.amarelo{
-  background: @yellow;
-  color: @black;
+  background: @black;
+  color: @white;
   
   .component__title {    
     color: @heading-color;
     text-transform: uppercase;
   }
-}
-.block.amarelo::before, .block.amarelo::after {
-  content: '';
-  background: url(assets/Subtract.png);
-  position: absolute;
-  width: 100px;
-  height: 100%;
-  top: 0;
-  z-index: 0;
-}
-.block.amarelo::before {
-  left: 0;
-}
-.block.amarelo::after {
-  right: 0;
-  transform: scaleX(-1);
-}
-.block.cinza{
-  background: @grey;
-  color: @white;
 }

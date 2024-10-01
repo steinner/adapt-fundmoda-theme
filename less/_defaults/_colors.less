@@ -1,10 +1,11 @@
 // Colour definitions
 // --------------------------------------------------
-@purple: #6F2282;
-@yellow: #FCBA5A;
-@grey: #555555;
-@black: #000000;
-@greyLight: #eeeeee;
+@blue: #135989;
+@green: #81B630;
+@grey: #EEEEEE;
+@black: #333333;
+@greyLight: #EDEEEC;
+@darkBlue: #143554;
 
 // These variables are used to change the colour of text
 // Primary use is for altering the text colour over a background image
@@ -13,8 +14,9 @@
 @transparent-light: transparent;
 @transparent-dark: transparent;
 
-@item-color:@purple;
-@item-color-second:@yellow;
+@item-color:@blue;
+@item-color-second:@green;
+@item-dark-color: @darkBlue;
 
 // Note: If customising a theme for the Authoring Tool please update the
 // corresponding default value for that variable in the properties.schema file.
@@ -34,13 +36,13 @@
 @link-hover: @link;
 @link-inverted-hover: @link-inverted;
 
-@heading-color: @purple;
-@heading-color-yellow: @yellow;
+@heading-color: @blue;
+@heading-color-green: @green;
 @heading-color-inverted: @white;
 
 // Items - components
 // --------------------------------------------------
-@item-color: @purple;
+@item-color: @blue;
 @item-color-inverted: @white;
 
 @item-color-hover: darken(@item-color, 10%);
@@ -132,7 +134,7 @@
 
 // Notify
 // --------------------------------------------------
-@notify: @purple;
+@notify: @blue;
 @notify-inverted: @white;
 
 @notify-link: @notify-inverted;
@@ -153,7 +155,7 @@
 
 // Drawer
 // --------------------------------------------------
-@drawer: @yellow;
+@drawer: @item-color;
 @drawer-inverted: @black;
 
 @drawer-link: @drawer-inverted;
@@ -188,7 +190,7 @@
 // --------------------------------------------------
 @pull-quote: @greyLight;
 @pull-quote-inverted: @font-color;
-@pull-quote-border: @purple;
+@pull-quote-border: @blue;
 
 // Background
 // --------------------------------------------------

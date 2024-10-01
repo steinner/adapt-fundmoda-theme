@@ -1,5 +1,5 @@
 {
-  "$anchor": "theme-test-block",
+  "$anchor": "ecocir-theme-block",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "$patch": {
@@ -8,9 +8,9 @@
     },
     "with": {
       "properties": {
-        "_theme-test": {
+        "_ecocir-theme": {
           "type": "object",
-          "title": "Theme Test",
+          "title": "Economia Circular Theme",
           "default": {},
           "properties": {
             "_textAlignment": {

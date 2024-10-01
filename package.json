@@ -1,11 +1,11 @@
 {
-  "name": "adapt-fundmoda-theme",
-  "version": "9.20.1",
+  "name": "adapt-ecocir-theme",
+  "version": "0.0.1",
   "framework": ">=5.31.3",
   "homepage": "https://github.com/steinner/adapt-fundmoda-theme",
   "bugs": "https://github.com/steinner/adapt-fundmoda-theme/issues",
   "theme": "fundmoda-theme",
-  "displayName": "Tema Fund. Moda",
+  "displayName": "Tema Ecnomia Circular",
   "description": "Tema de Fundamentos da Moda",
   "main": "js/theme.js",
   "keywords": [
@@ -13,7 +13,7 @@
     "adapt-theme"
   ],
   "license": "GPL-3.0",
-  "targetAttribute": "_theme-test",
+  "targetAttribute": "_ecocir-theme",
   "private": true,
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
